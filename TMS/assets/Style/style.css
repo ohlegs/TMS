@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+/*
+.visible-example{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(0, 47, 255);
+}
+.visible-example2{
+    width: 150px;
+    height: 200px;
+    border: 3px solid #00ff4c;
+}
+
+.red{ 
+    width: 150px;
+    height: 100px;
+    border: 3px solid rgb(251, 255, 0);
+    visibility:hidden;
+    display: none;
+}
+
+.float-example{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(255, 0, 0);
+
+}
+
+.flex-example{
+    display: flex;
+    width: 60%;
+    height: 90vh;
+    justify-content: center;
+    flex-direction: column; 
+    justify-content:space-between;
+    align-items: center;
+    border: 3px red solid;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+} */
+
+.features {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100vh;
+}
+.columnWrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 112px;
+  margin-left: 7%;
+  /* border: black 1px solid; */
+}
+
+.contaiinertab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+  background-color: #ff9b51;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.topTab {
+  border-radius: 4px 4px 0 0;
+}
+
+.bottomTab {
+  border-radius: 0 0 4px 4px;
+}
+
+.tabText {
+}
+
+.column {
+  position: relative;
+}
+
+.tabblack {
+  background-color: #333333;
+  margin-top: 2px;
+}
+
+.containertext {
+  position: absolute;
+  margin-left: 213px;
+  width: 506px;
+  top: 0;
+  /* background-color: black; */
+}
+
+.features-boldText {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.textcontent {
+  padding-top: 42px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.textcontent-button {
+  margin-top: 42px;
+  width: 134px;
+  height: 42px;
+  background: #fa8f21;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.imgCity {
+  position: fixed;
+  display: flex;
+  width: 320px;
+  height: 253px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 48%;
+  background-image: url(/assets/img/city.svg);
+  background-repeat: no-repeat;
+}
