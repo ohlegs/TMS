@@ -144,6 +144,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 48%;
-  background-image: url(/assets/img/city.svg);
+  background-image: url(../img/city.svg);
   background-repeat: no-repeat;
 }
