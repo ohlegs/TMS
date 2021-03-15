@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #1b1b1b;
+}
+
+.square-white {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  z-index: 2;
+}
+
+.square-blue {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+  background-color: rgb(0, 174, 255);
+  z-index: 3;
+}
+
+.square-blue:hover .square-yellou {
+    z-index: 0;
+}
+
+.square-yellou {
+  position: relative;
+  background-color: orange;
+  width: 55%;
+  height: 55%;
+  border-radius: 15px;
+  z-index: 4;
+}
+
+.circle {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+/* .angle {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+} */
+
+.circle-top-right {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.circle-top-right:hover {
+  background: #3c3ef8;
+  background: -webkit-linear-gradient(top left, #3c3ef8, #73d86b);
+  background: -moz-linear-gradient(top left, #3c3ef8, #73d86b);
+  background: linear-gradient(to bottom right, #3c3ef8, #73d86b);
+}
+
+.circle-bottom-left {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  border-radius: 50%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.circle-bottom-left:hover {
+  background: #d632da;
+  background: -webkit-linear-gradient(top left, #d632da, #158921);
+  background: -moz-linear-gradient(top left, #d632da, #158921);
+  background: linear-gradient(to bottom right, #d632da, #158921);
+}
+
+.circle-bottom-right {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.circle-bottom-right:hover {
+  background: #0fb9e3;
+  background: -webkit-linear-gradient(top left, #0fb9e3, #19998d);
+  background: -moz-linear-gradient(top left, #0fb9e3, #19998d);
+  background: linear-gradient(to bottom right, #0fb9e3, #19998d);
+}
+
+.circle-top-left {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background-color: red;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.circle-top-left:hover {
+  background: #16c0ea;
+  background: -webkit-linear-gradient(top left, #16c0ea, #b506eb);
+  background: -moz-linear-gradient(top left, #16c0ea, #b506eb);
+  background: linear-gradient(to bottom right, #16c0ea, #b506eb);
+}
+
+.z-index-circle:hover {
+  z-index: 4;
+}
